@@ -1,0 +1,133 @@
+body{
+    background-color: #ECE2D9 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+}
+.lien{
+color: #1A1A1A;
+text-decoration: none;
+font-weight: bolder;
+transition: color 0.3s;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 1em 0 .8em;
+    text-align: center;
+}
+h1{
+    font-size: 3.6rem;
+    color:#1a4147;
+}
+h2{
+    font-size: 3.2rem;
+    color: #335a61;
+}
+h3{
+    font-size: 2.8rem;
+    color:#0d5a6b;
+}
+h4{
+    font-size: 2.4rem;
+    color: #267385;
+}
+h5{
+    font-size: 2rem;
+    color: #91a8ad;
+}
+h6{
+    font-size: 1.8rem;
+    color:#abc2c7;
+}
+p{
+    text-align: justify;
+}
+blockquote{
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: .9;
+    letter-spacing: .1rem;
+    color: #267385;
+}
+pre{
+    background-color: #267385;
+    color: #ECE2D9;
+    padding: 1rem;
+    overflow-x: auto;
+}
+img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:0 0 50px #335a61;
+}
+figcaption{
+    text-align: center;
+    color: #335a61;
+}
+  .section1{
+    background: linear-gradient(0deg,#1a4147,
+    #335a61,#267385, #91a8ad,#abc2c7)#ECE2D9;
+  }
+  .pa {
+    font-weight: bold;
+  }
+  .section2{
+    background-color: #abc2c7;
+  }
+  li, ul, ol, dl {
+    margin-left: 20px; 
+    color: #267385;
+ }
+.section3 li, ul, ol, dl{
+color :  #1A1A1A;
+}
+mark{
+    background-color: #267385;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    color: #1A1A1A;
+    width: 700px;
+    height: 300px;
+}
+th{
+    color:#1A1A1A;
+    border: 1px solid #1a4147;
+    border-collapse: collapse;
+    background-color: #abc2c7;
+    }
+    td{
+    border:1px solid #1a4147;
+    border-collapse: collapse; 
+    }
+tr{
+border:1px solid #1a4147;
+border-collapse: collapse; 
+}
+.sectiontable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#text_field, #text_area, #password{
+    border: 3px solid #0d5a6b ;
+    padding: 10px;
+}
+.section5{
+    background-color: #91a8ad;
+}
+fieldset{
+    border: 5px solid #0d5a6b;
+}
+legend{
+    font-size: 40px; 
+    font-weight: bold;
+    color: #0d5a6b;
+}
+.button {
+    float: right;
+    margin-left: 10px; 
+}
