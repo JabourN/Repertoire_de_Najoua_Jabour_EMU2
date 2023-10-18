@@ -30,7 +30,7 @@
 
 
 <h2>Nos services</h2>
-<div class="card">
+<div class="d-flex align-items-start"><div class="card">
   <img src="images/about.jpg" class="card-img-top" alt="cordonnier">
   <div class="card-body">
     <h3 class="card-title">Réparation</h3>
@@ -53,24 +53,38 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
+</div>
 
 
-Contactez-nous
-[=== form ===]
-    Votre nom et prénom
-    [=== input ===]
-    Sujet
-    [=== select ===]
-        Choisissez un sujet
-        Demande de devis
-        Question
-        Autres
-    [=== /select ===]
-    Votre message
-    [=== textarea ===]
-    [=== button submit ===]
-[=== /form ===]
-[=== Google Map ===]
+
+
+
+
+
+<h2>Contactez-nous</h2>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Votre nom et prénom</label>
+      <input type="NomPrenom" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+   <select class="form-select" aria-label="Default select example">
+    <option selected>Sujet</option>
+    <option value="1">Choisissez un sujet</option>
+    <option value="2">Demande de devis</option>
+    <option value="3">Question</option>
+    <option value="4">Autres</option>
+  </select>
+   <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <button type="button" class="btn btn-primary">Envoyer</button>
+   
+<div class="map">
+  <iframe src="https://maps.google.com/maps?q=bruxellesisfsc&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  ></iframe>
+</div>
+
+
 &copy; SuperShoes 2020, tous droits résérvés
 
   
