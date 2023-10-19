@@ -1,0 +1,4 @@
+header  {grid-area: header;}
+nav     {grid-area: menu; align-self: start}
+main    {grid-area: auto;}
+footer  {grid-area: footer;}
