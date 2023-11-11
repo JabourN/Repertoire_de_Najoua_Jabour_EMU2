@@ -19,10 +19,11 @@ display_paragraphe(index);
 
  // Afficher l'image adéquat :
  function display_image(src) {
-    var img = $('<img>').attr('src', src);
+    $('.js-images img').removeClass('active');
     
-    // Effacer les images non adéquat
-    $('.js-images').html('').append(img);
+    // Ajouter la classe 'active' à l'image correspondante
+    $('.js-images img[src="' + src + '"]').addClass('active');
+
 }
    // 3. Affiche le paragraphe adéquat :
    function display_paragraphe(index) {
