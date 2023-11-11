@@ -14,21 +14,19 @@ var src = $('.js-images img[data-index="' + index + '"]').attr('src');
 
 // Appeler la fonction pour afficher l'image
 display_image(src);
-display_paragraphe(article);
-
+display_paragraphe(index);
 });
+
  // Afficher l'image adéquat :
  function display_image(src) {
-    var img = document.createElement("img");
-    img.src = src;
+    var img = $('<img>').attr('src', src);
     
     // Effacer les images non adéquat
-    $('.js-images').html('');
-    $('.js-images').append(img);
+    $('.js-images').html('').append(img);
 }
    // 3. Affiche le paragraphe adéquat :
    function display_paragraphe(index) {
-    $('.js-text article').addClass('');
+    $('.js-text article').removeClass('active');
     $('.js-text article[data-index="' + index + '"]').addClass('active');
-}
+  }
 });
