@@ -1,6 +1,10 @@
-/*
-
-Il faut cacher les images sauf celle qui est .active.
-Même chose pour les <article>
-
-*/
+/* Cacher image */
+img:not(.active) {
+    display: none;
+  }
+  
+  /* Cache l'article */
+  article:not(.active) {
+    display: none;
+  }
+  

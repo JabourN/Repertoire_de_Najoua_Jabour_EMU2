@@ -14,6 +14,7 @@ var src = $('.js-images img[data-index="' + index + '"]').attr('src');
 
 // Appeler la fonction pour afficher l'image
 display_image(src);
+display_paragraphe(article);
 
 });
  // Afficher l'image adéquat :
@@ -26,5 +27,8 @@ display_image(src);
     $('.js-images').append(img);
 }
    // 3. Affiche le paragraphe adéquat :
-
+   function display_paragraphe(index) {
+    $('.js-text article').addClass('');
+    $('.js-text article[data-index="' + index + '"]').addClass('active');
+}
 });
